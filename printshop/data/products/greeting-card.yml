@@ -1,0 +1,13 @@
+name: 'Greeting Card'
+slug: greeting-card
+description: ''
+category: 'Greeting Card'
+position: 0
+price: '12'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 500, height: 500, printable_width: 200, printable_height: 380, printable_offset_x: 252, printable_offset_y: 57 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: e53a72fe10bd433ab22d8fa63ab94559.png }, price: '12' }
+defaultVariant: white

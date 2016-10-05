@@ -1,0 +1,288 @@
+/*--
+	3.2 Header Bottom
+--------------------------------------*/
+.header-bottom {
+  background: #ffffff;
+}
+/* Header Logo */
+.logo {
+  line-height: 120px;
+}
+.logo a {
+  display: block;
+  float: left;
+}
+.logo a img{}
+/* Main Menu */
+.main-menu{}
+.main-menu nav{}
+.main-menu nav > ul{}
+.main-menu nav > ul > li {
+  display: block;
+  float: left;
+  margin-right: 30px;
+  position: relative;
+}
+.main-menu nav > ul > li > a {
+  color: #272727;
+  display: block;
+  letter-spacing: 1.5px;
+  line-height: 120px;
+  padding-right: 22px;
+  position: relative;
+  text-transform: uppercase;
+}
+.main-menu nav > ul > li > a::before {
+  background: #e2214b none repeat scroll 0 0;
+  bottom: 46px;
+  content: "";
+  height: 3px;
+  position: absolute;
+  -webkit-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 0;
+}
+.main-menu nav > ul > li:hover > a::before, .main-menu nav > ul > li.active > a::before {
+  width: 30px;
+}
+/* Sub Menu */
+.main-menu .sub-menu {
+  background: #ffffff none repeat scroll 0 0;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  left: 0;
+  margin-top: 15px;
+  opacity: 0;
+  position: absolute;
+  top: 120%;
+  -webkit-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  visibility: hidden;
+  width: 210px;
+  z-index: -9;
+}
+.main-menu .sub-menu::before {
+  background: #ffffff none repeat scroll 0 0;
+  box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
+  content: "";
+  height: 10px;
+  left: 12px;
+  position: absolute;
+  top: -5px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 10px;
+  z-index: -99;
+}
+.main-menu .sub-menu::after {
+  content: "";
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: -15px;
+  width: 100%;
+}
+.main-menu li:hover .sub-menu {
+  opacity: 1;
+  top: 100%;
+  visibility:visible;
+  z-index: 9999;
+}
+.main-menu .sub-menu > li {
+  border-bottom: 1px solid #eeeeee;
+  position: relative;
+}
+.main-menu .sub-menu > li:last-child {
+  border-bottom: 0px solid #eeeeee;
+}
+.main-menu .sub-menu > li > a {
+  color: #272727;
+  display: block;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  line-height: 51px;
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+.main-menu .sub-menu > li > a:hover {
+  background: #f8f8f8;
+  color: #e2214b;
+}
+/* Sub Menu 2 */
+.sub-menu .sub-menu-2 {
+  background: #ffffff none repeat scroll 0 0;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  left: 120%;
+  margin-left: 15px;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  width: 210px;
+  z-index: -9;
+}
+.sub-menu .sub-menu-2::before {
+  background: #ffffff none repeat scroll 0 0;
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.5);
+  content: "";
+  height: 10px;
+  left: -5px;
+  position: absolute;
+  top: 12px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 10px;
+  z-index: -99;
+}
+.sub-menu .sub-menu-2::after {
+  content: "";
+  height: 100%;
+  left: -15px;
+  position: absolute;
+  top: 0;
+  width: 15px;
+}
+.sub-menu li:hover .sub-menu-2 {
+  opacity: 1;
+  left: 100%;
+  z-index: 9999;
+}
+.sub-menu .sub-menu-2 > li {
+  border-bottom: 1px solid #eeeeee;
+  position: relative;
+}
+.sub-menu .sub-menu-2 > li:last-child {
+  border-bottom: 0px solid #eeeeee;
+}
+.sub-menu .sub-menu-2 > li > a {
+  color: #272727;
+  display: block;
+  font-size: 12px;
+  line-height: 51px;
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+.sub-menu .sub-menu-2 > li > a:hover {
+  background: #f8f8f8;
+  color: #e2214b;
+}
+/* Mega Menu */
+.main-menu .mega-menu {
+  background: #ffffff none repeat scroll 0 0;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  left: -198px;
+  margin-top: 15px;
+  opacity: 0;
+  padding: 25px 30px 15px;
+  position: absolute;
+  top: 120%;
+  -webkit-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  visibility: hidden;
+  width: 870px;
+  z-index: -9;
+}
+.main-menu .mega-menu.mega-menu1 {
+  left: -198px;
+}
+.main-menu .mega-menu.mega-menu2 {
+  left: -295px;
+}
+.main-menu .mega-menu.mega-menu3 {
+  left: -393px;
+}
+.main-menu .mega-menu::before {
+  background: #ffffff none repeat scroll 0 0;
+  box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
+  content: "";
+  height: 10px;
+  left: 210px;
+  position: absolute;
+  top: -5px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 10px;
+  z-index: -99;
+}
+.main-menu .mega-menu.mega-menu1::before {
+  left: 210px;
+}
+.main-menu .mega-menu.mega-menu2::before {
+  left: 307px;
+}
+.main-menu .mega-menu.mega-menu3::before {
+  left: 405px;
+}
+.main-menu .mega-menu::after {
+  content: "";
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: -15px;
+  width: 100%;
+}
+.main-menu li:hover .mega-menu {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+  z-index: 99;
+}
+.megamenu-column {
+  display: block;
+  float: left;
+  padding-right: 30px;
+  width: 23.3333%;
+}
+.megamenu-column2 {
+  padding-right: 0;
+  width: 30%;
+}
+.megamenu-column ul{}
+.megamenu-column ul li:first-child {
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 8px;
+}
+.megamenu-column ul li{}
+.megamenu-column ul li:first-child a {
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 0;
+}
+.megamenu-column ul li a {
+  color: #272727;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  display: block;
+}
+.megamenu-column ul li a:hover {
+  color: #e2214b;
+}
+.megamenu-column .menu-image {
+  display: block;
+}
+.megamenu-column .menu-image img {
+  display: block;
+  margin-left: 20px;
+  margin-top: -5px;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  transform: scale(1.3);
+}

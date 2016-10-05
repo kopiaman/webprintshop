@@ -1,0 +1,13 @@
+name: 'Samsung Galaxy S5'
+slug: samsung-galaxy-s5
+description: "-Slim profile and lightweight\n\n -Impact resistant, durable hard plastic\n\n-Lay-flat bezel to protect your screen from directly contacting surfaces \n\n-Access to all ports, controls and sensors \n\n-Customize with your images, designs and text"
+category: 'Phone Case'
+position: 5
+price: '20'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 143, height: 143, printable_width: 65, printable_height: 134, printable_offset_x: 40, printable_offset_y: 5 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: s5.jpg }, price: '0.00' }
+defaultVariant: white

@@ -1,0 +1,13 @@
+name: 'Puzzle (A1  Size)'
+slug: puzzle-a1-size
+description: "Turn your design, photos to you own puzzles! \nMade of cardboard and mounted on chipboard, these puzzles are printed in vivid and full color.\nHave fun playing with your puzzle!\n\nA1 Size: (76cm x 50cm) \n\nPieces: 1000 pcs"
+category: Puzzle
+position: 2
+price: '148'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 918, height: 918, printable_width: 760, printable_height: 500, printable_offset_x: 72, printable_offset_y: 206 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: puzzleA1.jpg }, price: '148' }
+defaultVariant: white

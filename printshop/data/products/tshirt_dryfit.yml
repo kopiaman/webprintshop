@@ -1,0 +1,17 @@
+name: 'Dry Fit'
+slug: tshirt_dryfit
+description: "Dry fit t-shirt is a polyester performance T-shirt that helps improve physical performance by supporting the body's natural temperature regulating mechanism.\r\n\r\n They work great in hot weather, but they are also a great choice in cooler temperatures, since they won't become damp and chilly like cotton shirts can.\r\n\r\nFor year-round comfort, make a performance T-shirt your first choice.\r\n\r\nMaterial: 100% Polyester\r\n\r\nSizes available: Unisex : S,M,L,XL,XXL\r\n\r\nColours: White\r\n\r\nPrinting: Heat transfer printing using EPSON sublimation printer"
+category: T-Shirts
+position: 2
+price: '30'
+sizes:
+    - S
+    - M
+    - L
+    - XL
+    - XXL
+orientations:
+    - { name: Front, width: 500, height: 500, printable_width: 210, printable_height: 297, printable_offset_x: 135, printable_offset_y: 101 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: tsdf.jpg }, price: '30' }
+defaultVariant: white

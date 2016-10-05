@@ -1,0 +1,13 @@
+name: Mousepad
+slug: mousepad_std
+description: "Create a custom mousepad for your laptop or PC! \r\n\r\nDecorate your desk with your favorite image that look great and protect your mouse from scratches and debris.\r\n\r\nSize 22cm x 18cm\r\n\r\nQuality, full-color printing\r\n\r\nDurable cloth cover is dust and stain resistant\r\n\r\nNon-slip backing\r\n\r\nNo minimum order\r\n    "
+category: Mousepad
+position: 0
+price: '25'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 270, height: 270, printable_width: 220, printable_height: 180, printable_offset_x: 27, printable_offset_y: 48 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: mousepad.jpg }, price: '25' }
+defaultVariant: white

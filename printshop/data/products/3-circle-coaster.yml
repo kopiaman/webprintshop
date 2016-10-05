@@ -1,0 +1,13 @@
+name: '3 Circle Coaster'
+slug: 3-circle-coaster
+description: 'Ever had the Fun thought of having a set of personalized coasters? Now’s your chance to get some!  '
+category: Coaster
+position: 0
+price: '9'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 500, height: 500, printable_width: 465, printable_height: 465, printable_offset_x: 20, printable_offset_y: 20 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: circle.png }, price: '9' }
+defaultVariant: white

@@ -1,0 +1,13 @@
+name: 'iPhone 4/4s'
+slug: i-phone-4-4s
+description: "Designed for the iPhone 4/4s\nSlim profile and lightweight\nImpact resistant, durable hard plastic\nLay-flat bezel to protect your screen from directly contacting surfaces\nAccess to all ports, controls and sensors\nCustomize with your images, designs and text"
+category: 'Phone Case'
+position: 1
+price: '5'
+sizes:
+    - Quantity
+orientations:
+    - { name: Back, width: 118, height: 118, printable_width: 46, printable_height: 101, printable_offset_x: 37, printable_offset_y: 7 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Back: iphone4.jpg }, price: '50' }
+defaultVariant: white

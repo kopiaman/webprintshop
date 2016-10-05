@@ -1,0 +1,327 @@
+@import "variable.less";
+
+.header-bottom {
+	background: @color_white;
+	margin-top: 20px;
+
+	.home-2{
+	background: transparent none repeat scroll 0 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 99;
+	}
+	.home-3{
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 99;
+	}
+}
+
+.logo {
+	line-height: 70px;
+	a {
+		display: block;
+		float: left;
+	}
+}
+
+.main-menu {
+	nav {
+		>ul {
+			>li {
+				display: block;
+				float: left;
+				margin-right: 30px;
+				position: relative;
+				>a {
+					color: @color_dark;
+					display: block;
+					letter-spacing: 1.5px;
+					line-height: 70px;
+					padding-right: 22px;
+					position: relative;
+					text-transform: uppercase;
+					&::before {
+						background: @color_primary none repeat scroll 0 0;
+						bottom: 46px;
+						content: "";
+						height: 3px;
+						position: absolute;
+						-webkit-transition: all 0.3s ease 0s;
+						-ms-transition: all 0.3s ease 0s;
+						-o-transition: all 0.3s ease 0s;
+						transition: all 0.3s ease 0s;
+						width: 0;
+					}
+				}
+				&:hover {
+					>a {
+						&::before {
+							width: 30px;
+						}
+					}
+				}
+			}
+			>li.active {
+				>a {
+					&::before {
+						width: 30px;
+					}
+				}
+			}
+		}
+	}
+	.sub-menu {
+		background: #ffffff none repeat scroll 0 0;
+		box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+		left: 0;
+		margin-top: 15px;
+		opacity: 0;
+		position: absolute;
+		top: 120%;
+		-webkit-transition: all 0.5s ease 0s;
+		-ms-transition: all 0.5s ease 0s;
+		-o-transition: all 0.5s ease 0s;
+		transition: all 0.5s ease 0s;
+		visibility: hidden;
+		width: 210px;
+		z-index: -9;
+		&::before {
+			background: #ffffff none repeat scroll 0 0;
+			box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
+			content: "";
+			height: 10px;
+			left: 12px;
+			position: absolute;
+			top: -5px;
+			-webkit-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			transform: rotate(45deg);
+			width: 10px;
+			z-index: -99;
+		}
+		&::after {
+			content: "";
+			height: 15px;
+			left: 0;
+			position: absolute;
+			top: -15px;
+			width: 100%;
+		}
+		>li {
+			border-bottom: 1px solid #eeeeee;
+			position: relative;
+			&:last-child {
+				border-bottom: 0px solid #eeeeee;
+			}
+			>a {
+				color: @color_7;
+				display: block;
+				font-size: 12px;
+				letter-spacing: 1.2px;
+				line-height: 51px;
+				padding: 0 20px;
+				text-transform: uppercase;
+				&:hover {
+					background: #f8f8f8;
+					color: @color_6;
+				}
+			}
+		}
+	}
+	li {
+		&:hover {
+			.sub-menu {
+				opacity: 1;
+				top: 100%;
+				visibility: visible;
+				z-index: 9999;
+			}
+			.mega-menu {
+				opacity: 1;
+				top: 100%;
+				visibility: visible;
+				z-index: 99;
+			}
+		}
+	}
+	.mega-menu {
+		background: #ffffff none repeat scroll 0 0;
+		box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+		left: -198px;
+		margin-top: 15px;
+		opacity: 0;
+		padding: 25px 30px 15px;
+		position: absolute;
+		top: 120%;
+		-webkit-transition: all 0.5s ease 0s;
+		-ms-transition: all 0.5s ease 0s;
+		-o-transition: all 0.5s ease 0s;
+		transition: all 0.5s ease 0s;
+		visibility: hidden;
+		width: 870px;
+		z-index: -9;
+		&::before {
+			background: #ffffff none repeat scroll 0 0;
+			box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
+			content: "";
+			height: 10px;
+			left: 210px;
+			position: absolute;
+			top: -5px;
+			-webkit-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			transform: rotate(45deg);
+			width: 10px;
+			z-index: -99;
+		}
+		&::after {
+			content: "";
+			height: 15px;
+			left: 0;
+			position: absolute;
+			top: -15px;
+			width: 100%;
+		}
+	}
+	.mega-menu1 {
+		left: -198px;
+		&::before {
+			left: 210px;
+		}
+	}
+	
+	.mega-menu2 {
+		left: -295px;
+		&::before {
+			left: 307px;
+		}
+	}
+	
+	.mega-menu3 {
+		left: -393px;
+		&::before {
+			left: 405px;
+		}
+	}
+		
+}
+.sub-menu {
+	.sub-menu-2 {
+		background: #ffffff none repeat scroll 0 0;
+		box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+		left: 120%;
+		margin-left: 15px;
+		opacity: 0;
+		position: absolute;
+		top: 0;
+		-webkit-transition: all 0.5s ease 0s;
+		-ms-transition: all 0.5s ease 0s;
+		-o-transition: all 0.5s ease 0s;
+		transition: all 0.5s ease 0s;
+		width: 210px;
+		z-index: -9;
+		&::before {
+			background: #ffffff none repeat scroll 0 0;
+			box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.5);
+			content: "";
+			height: 10px;
+			left: -5px;
+			position: absolute;
+			top: 12px;
+			-webkit-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			transform: rotate(45deg);
+			width: 10px;
+			z-index: -99;
+		}
+		&::after {
+			content: "";
+			height: 100%;
+			left: -15px;
+			position: absolute;
+			top: 0;
+			width: 15px;
+		}
+		>li {
+			border-bottom: 1px solid #eeeeee;
+			position: relative;
+			&:last-child {
+				border-bottom: 0px solid #eeeeee;
+			}
+			>a {
+				color: @color_7;
+				display: block;
+				font-size: 12px;
+				line-height: 51px;
+				padding: 0 20px;
+				text-transform: uppercase;
+				&:hover {
+					background: #f8f8f8;
+					color: @color_6;
+				}
+			}
+		}
+	}
+	li {
+		&:hover {
+			.sub-menu-2 {
+				opacity: 1;
+				left: 100%;
+				z-index: 9999;
+			}
+		}
+	}
+}
+.megamenu-column {
+	display: block;
+	float: left;
+	padding-right: 30px;
+	width: 23.3333%;
+	ul {
+		li {
+			&:first-child {
+				border-bottom: 1px solid #eeeeee;
+				margin-bottom: 8px;
+				a {
+					font-size: 14px;
+					font-weight: bold;
+					padding-left: 0;
+				}
+			}
+			a {
+				color: @color_7;
+				font-size: 12px;
+				letter-spacing: 1.2px;
+				line-height: 30px;
+				padding-left: 10px;
+				text-transform: uppercase;
+				display: block;
+				&:hover {
+					color: @color_6;
+				}
+			}
+		}
+	}
+	.menu-image {
+		display: block;
+		img {
+			display: block;
+			margin-left: 20px;
+			margin-top: -5px;
+			-webkit-transform: scale(1.3);
+			-ms-transform: scale(1.3);
+			-o-transform: scale(1.3);
+			transform: scale(1.3);
+		}
+	}
+}
+.megamenu-column2 {
+	padding-right: 0;
+	width: 30%;
+}

@@ -1,0 +1,13 @@
+name: 'Puzzle (A3 Size)'
+slug: puzzle-a3-size
+description: "Turn your design, photos to you own puzzles! \r\nMade of cardboard and mounted on chipboard, these puzzles are printed in vivid and full color.\r\nHave fun playing with your puzzle!\r\n\r\nA3 Size: (39cm x 28cm) \r\n\r\nPiece: 300pcs"
+category: Puzzle
+position: 4
+price: '64'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 539, height: 539, printable_width: 390, printable_height: 280, printable_offset_x: 73, printable_offset_y: 139 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: puzzleA3.jpg }, price: '64' }
+defaultVariant: white

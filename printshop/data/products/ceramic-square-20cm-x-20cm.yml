@@ -1,0 +1,13 @@
+name: 'Ceramic Square (20cm x 20cm)'
+slug: ceramic-square-20cm-x-20cm
+description: "Camdy produces ceramic tiles with finishing that is high-gloss and most vibrant for the best reproduction of artwork and pictures. \r\n\r\nThey can be used individually or to make a photo montage to decorate your home. Display you favourite photos, images and sayings on this ceramic tile\r\n\r\nWeight : 480g\r\n\r\nFull color durable sublimation printing\r\n\r\nSuitable for indoor and outdoor"
+category: Ceramic
+position: 5
+price: '45'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 269, height: 269, printable_width: 200, printable_height: 200, printable_offset_x: 35, printable_offset_y: 34 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: ceramicSquare.jpg }, price: '45' }
+defaultVariant: white

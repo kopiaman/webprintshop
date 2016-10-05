@@ -1,0 +1,84 @@
+@import "variable.less";
+.moon-form {
+	margin: 0 -15px;
+	overflow: hidden;
+	.input-box {
+		display: block;
+		float: left;
+		margin-bottom: 28px;
+		padding: 0 15px;
+		width: 100%;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		input {
+			background: transparent;
+			border: 1px solid #9b9b9c;
+			color: @color_5;
+			font-size: 12px;
+			padding: 7px 14px;
+			width: 100%;
+		}
+		textarea {
+			background: transparent;
+			border: 1px solid #9b9b9c;
+			color: @color_5;
+			font-size: 12px;
+			padding: 10px 14px;
+			width: 100%;
+		}
+		select {
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			background: rgba(0, 0, 0, 0) url("../img/icons/caret-down.png") no-repeat scroll right 9px center;
+			border: 1px solid #9b9b9c;
+			color: @color_5;
+			font-size: 12px;
+			padding: 5px 6px;
+			width: 100%;
+			option {
+				border-right: 1px solid #9b9b9c;
+				display: block;
+				padding: 0 10px;
+			}
+		}
+		input[type="submit"] {
+			background: #272727 none repeat scroll 0 0;
+			border: medium none;
+			color: @color_4;
+			letter-spacing: 1px;
+			line-height: 36px;
+			padding: 0;
+			text-transform: uppercase;
+			width: 150px;
+			&:hover {
+				background: #e2214b none repeat scroll 0 0;
+			}
+		}
+	}
+	.input-box-2 {
+		width: 50%;
+	}
+	.form-ratting {
+		display: block;
+		float: left;
+		margin-bottom: 15px;
+		padding: 0 15px;
+		width: 100%;
+		.form-sin-ratting {
+			background: transparent none repeat scroll 0 0;
+			border: medium none;
+			color: @color_5;
+			display: block;
+			float: left;
+			margin-right: 20px;
+			&:hover {
+				color: @color_12;
+			}
+		}
+		.form-sin-ratting.active {
+			color: @color_12;
+		}
+	}
+}

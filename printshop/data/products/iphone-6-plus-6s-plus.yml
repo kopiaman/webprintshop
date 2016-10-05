@@ -1,0 +1,13 @@
+name: 'iPhone 6 Plus / 6s Plus'
+slug: iphone-6-plus-6s-plus
+description: "Designed for the iPhone 6 Plus / 6S Plus 2D\r\nlim profile and lightweight\r\nImpact resistant, durable hard plastic\r\nLay-flat bezel to protect your screen from directly contacting surfaces\r\nAccess to all ports, controls and sensors\r\nCustomize with your images, designs and text"
+category: 'Phone Case'
+position: 4
+price: '20'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 169, height: 169, printable_width: 70, printable_height: 148, printable_offset_x: 51, printable_offset_y: 8 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: iphone6plus.jpg }, price: '20' }
+defaultVariant: white

@@ -1,0 +1,13 @@
+name: 'Circle Badges'
+slug: circle-badges
+description: 'Badges make good accessories on a lot things. Better yet! Get them customized as a gift!'
+category: Badges
+position: 0
+price: '7'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 500, height: 500, printable_width: 465, printable_height: 465, printable_offset_x: 20, printable_offset_y: 20 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: circle.png }, price: '7' }
+defaultVariant: white

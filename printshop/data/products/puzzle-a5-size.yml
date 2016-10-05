@@ -1,0 +1,13 @@
+name: 'Puzzle (A5 Size)'
+slug: puzzle-a5-size
+description: "Turn your design, photos to you own puzzles! \r\nMade of cardboard and mounted on chipboard, these puzzles are printed in vivid and full color.\r\nHave fun playing with your puzzle!\r\n\r\nA5 Size: (20.5cm x 15cm)  \r\n\r\nPieces: 80     pcs "
+category: Puzzle
+position: 0
+price: '20'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 244, height: 244, printable_width: 205, printable_height: 150, printable_offset_x: 18, printable_offset_y: 45 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: puzzleA5.jpg }, price: '20' }
+defaultVariant: white

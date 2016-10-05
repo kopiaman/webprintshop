@@ -1,0 +1,24 @@
+name: 'Basic T Shirt'
+slug: tshirt_basic
+description: "BASIC T-SHIRT\n\nStay comfortable all day with the Gildan's Short-Sleeve T-Shirt. \n It provides you with the soft breathable layer that you need. \nThe cotton T-Shirt is built to hold up wash after wash, without shrinking or tearing.\n Wide-cut arms ensure your arms don't become constricted. \n It also features a ribbed neck for added comfort and ease of wearing.\n\n100% cotton (some colours contain polyester):\n-180g/m2 (5.3oz per sq yd) for colours\n -175g/m2 (5.1oz per sq yd) for white\n-Single needle 2cm rib knit collar\n-Taped neck and shoulders\n-Double needle sleeve and bottom hems\n\nMaterial:\n-100% Cotton (some colours contain polyester)\\n\\n<b>\n\nSizes available:\n-Unisex : S,M,L,XL,XXL,XXXL\\n\\n\n\nColours:\nWhite-Black-Red-Pink-Purple-Grey-Orange\n Light Green-Light Blue-Light Yellow\n\nPrinting: Direct to garment digital printing"
+category: T-Shirts
+position: 1
+price: '50'
+sizes:
+    - S
+    - M
+    - L
+    - XL
+    - XXL
+orientations:
+    - { name: Front, width: 531, height: 531, printable_width: 210, printable_height: 297, printable_offset_x: 164, printable_offset_y: 168 }
+variants:
+    - { name: black, slug: black, additional_price: 0, colors: ['#000000'], orientations: { Front: tsmb.jpg }, price: '10.90' }
+    - { name: orange, slug: orange, colors: ['#ffa500'], hexes: ['#ffa500'], orientations: { Front: tsmo.jpg }, price: '50' }
+    - { name: purple, slug: purple, colors: ['#6e2a81'], hexes: ['#6e2a81'], orientations: { Front: tsmp.jpg }, price: '10.90' }
+    - { name: blue-light, slug: blue-light, colors: ['#00bfff'], hexes: ['#00bfff'], orientations: { Front: tsmbl.jpg }, price: '50' }
+    - { name: green-light, slug: green-light, colors: ['#a7ed08'], hexes: ['#a7ed08'], orientations: { Front: tsmg.jpg }, price: '50' }
+    - { name: yellow, slug: yellow, colors: ['#f2de33'], hexes: ['#f2de33'], orientations: { Front: tsmy.jpg }, price: '10.90' }
+    - { name: red, slug: red, colors: ['#ff0000'], hexes: ['#ff0000'], orientations: { Front: tsmr.jpg }, price: '50' }
+    - { name: white, slug: white, colors: ['#ffffff'], hexes: ['#ffffff'], orientations: { Front: tsmw.jpg }, price: '50' }
+defaultVariant: blue-light

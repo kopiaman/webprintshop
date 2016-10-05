@@ -1,0 +1,20 @@
+name: Mug
+slug: mug_basic
+description: "The ceramic glossy mug will brings a smile to your face every time you enjoy your morning coffee or tea. \r\n\r\nYou can shop our collection of mugs based on interest from motivational to humorous, create your own photo mug, personalize your mug with a monogram, or express yourself with one of our customisable designs.\r\n\r\nMaterial: Porcelain\r\n\r\nDimensions: Approximately 9.5cm in height and 8cm diameter\r\n\r\nWeight:Approximately 450g inclusive protective plastic and box\r\n\r\nCapacity: Standard 11oz or 330ml\r\n\r\nTested against RoHS\r\n\r\nDishwasher safe and Microwave safe\r\n\r\nPrinting: Heat transfer printing"
+category: Mug
+position: 0
+price: '20'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 123, height: 123, printable_width: 70, printable_height: 90, printable_offset_x: 12, printable_offset_y: 21 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: mwhite.jpg }, price: '20' }
+    - { name: yellow, slug: yellow, colors: ['#f2de33'], hexes: ['#f2de33'], orientations: { Front: myellow.jpg }, price: '20' }
+    - { name: red, slug: red, colors: ['#d41c28'], hexes: ['#d41c28'], orientations: { Front: mred.jpg }, price: '20' }
+    - { name: pink, slug: pink, colors: ['#f7b2d8'], hexes: ['#f7b2d8'], orientations: { Front: mpink.jpg }, price: '20' }
+    - { name: orange, slug: orange, colors: ['#fa4d10'], hexes: ['#fa4d10'], orientations: { Front: morange.jpg }, price: '20' }
+    - { name: green-light, slug: green-light, colors: ['#a7ed08'], hexes: ['#a7ed08'], orientations: { Front: mgreen.jpg }, price: '20' }
+    - { name: blue, slug: blue, colors: ['#0000ff'], hexes: ['#0000ff'], orientations: { Front: mblue.jpg }, price: '20' }
+    - { name: black, slug: black, colors: ['#000000'], hexes: ['#000000'], orientations: { Front: mblack.jpg }, price: '20' }
+defaultVariant: white

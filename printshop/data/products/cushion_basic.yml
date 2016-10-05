@@ -1,0 +1,20 @@
+name: Cushion
+slug: cushion_basic
+description: "Explore the complete range of collection that can be customized to your liking with our powerful tool or add personal touch to it by adding text or photos of your choice.\r\n\r\nMaterial: 100% Polyester\r\n\r\nDimensions: 40cm x 40cm Square with 20cm x 20cm printable area\r\n\r\nWeight: Approximately 350g\r\n\r\n Hidden zipper enclosure\r\n\r\nHigh durability machine washable cover\r\n\r\nInner microfiber cushion included\r\n  "
+category: Cushion
+position: 0
+price: '40'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 367, height: 367, printable_width: 200, printable_height: 200, printable_offset_x: 83, printable_offset_y: 99 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: cushion_whi.jpg }, price: '0.00' }
+    - { name: yellow, slug: yellow, colors: ['#f2de33'], hexes: ['#f2de33'], orientations: { Front: cushion_yl.jpg }, price: '40' }
+    - { name: red, slug: red, colors: ['#d41c28'], hexes: ['#d41c28'], orientations: { Front: cushion_red.jpg }, price: '40' }
+    - { name: orange, slug: orange, colors: ['#fa4d10'], hexes: ['#fa4d10'], orientations: { Front: cushion_or.jpg }, price: '40' }
+    - { name: pink, slug: pink, colors: ['#f7b2d8'], hexes: ['#f7b2d8'], orientations: { Front: cushion_pi.jpg }, price: '40' }
+    - { name: blue-light, slug: blue-light, colors: ['#00bfff'], hexes: ['#00bfff'], orientations: { Front: cushion_lb.jpg }, price: '40' }
+    - { name: green-light, slug: green-light, colors: ['#a7ed08'], hexes: ['#a7ed08'], orientations: { Front: cushion_gr.jpg }, price: '40' }
+    - { name: brown, slug: brown, colors: ['#926239'], hexes: ['#926239'], orientations: { Front: cushion_bb.jpg }, price: '40' }
+defaultVariant: red

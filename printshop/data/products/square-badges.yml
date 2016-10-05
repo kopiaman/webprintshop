@@ -1,0 +1,13 @@
+name: 'Square Badges'
+slug: square-badges
+description: 'Badges make good accessories on a lot things. Better yet! Get them customized as a gift!'
+category: Badges
+position: 0
+price: '4'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 500, height: 500, printable_width: 400, printable_height: 400, printable_offset_x: 50, printable_offset_y: 50 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: square.jpg }, price: '4' }
+defaultVariant: white

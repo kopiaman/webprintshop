@@ -1,0 +1,107 @@
+<!-- Product Details 2
+============================================ -->
+<div class="product-details2 pages" ng-init="getMerchandize()">
+	<div class="container">
+		<div class="row text-center">
+		  <a class="btn btn-primary btn-lg" ui-sref="main">
+            <i class="fa fa-home fa-fw fa-3x" aria-hidden="true"></i>BACK TO PRINTSHOP</a>
+
+         </div>
+         <div class="row">
+			<div class="col-sm-12">
+				
+				<h1>{{product.name}}</h1>
+				<!-- Product Container -->
+				<div class="row">
+					<!-- Product Image -->
+					<div class="product-image col-md-6 col-xs-12">
+						<!-- Product Image Tab container -->
+
+						<div class="pro-image-tab-container tab-content fix">
+							<!-- Product Image Tab -->
+							<div class="pro-image-tab tab-pane active" id="image-1">
+								<img src="{{activeImage}}" alt="" />
+							</div>
+						</div>
+
+						<!-- Product Image Tab List -->
+						<ul class="pro-image-tab-list">
+							<li ng-repeat="img in  imageList track by $index" ng-class="{active: activeImage== img}"
+							class=" pointer" ng-click="setActiveImage(img)">
+								<a data-toggle="tab" ><img src="{{img}}" alt="" /></a>
+							</li>
+						</ul>
+
+					</div>
+					<!-- Product Info -->
+					<div class="col-md-6 col-xs-12">
+						<div class="product-info-2 fix">
+							<!-- Product Info Cat -->
+						
+							<div class="fix">
+								<div class="pro-info-price-2 float-left fix">
+									<span style="font-size:14px;position: relative; bottom:-15px">Start From</span>
+									<h2>RM{{selectedItem.price || product.minimum_price}}</h2>
+								</div>
+							</div>
+
+							<div class="pro-color-size">
+
+
+									<h4>Sizes: </h4>
+									<ul>
+									<span style="margin:10px 0px 10px 10px" ng-repeat="(key, data) in product.sizes">
+										<a ng-click="setCurrentSize(product.sizes[key],0)" class='btn btn-primary'>{{key}}</a>
+										</span>
+								    </ul>
+									<h4>Colors:</h4>
+									<!--<span ng-style="{'background-color': item.color}" ng-repeat="item in  currentSize track by $index">{{item.color}}	</span>-->
+									<ul class="color-ul">
+										<li class=" pointer color-li" ng-style="getColor(item.color)" ng-click="setCurrentSize(null, $index)" 
+										ng-repeat="item in  currentSize track by $index"><a></a></li>
+									</ul>
+								
+								<div class="pro-info-actions-2 text-center fix" ng-show="product.web_slug">
+
+
+							<a href="/printshop/dist/#/product/selection/{{product.web_slug}}/white">
+								<button  class="pro-info-addcart" >
+							<i class="mo-cart"></i>CLICK HERE TO CUSTOMIZE
+								</button>
+							</a>	
+
+
+								</div>
+
+							</div>
+
+							<div style="clear:both"></div>
+
+
+
+						</div>
+					
+					</div>
+
+
+				</div>
+
+				<div class="row">
+
+				<div class="col-xs-12">
+
+					<div class="pro-info-des-2">
+						<h2>DESCRIPTION</h2>
+						<p ng-bind-html="deliberatelyTrustDangerousSnippet(product.description)"></p>
+					</div>
+
+				</div>
+				</div>
+
+
+
+			</div>
+
+		</div>
+	</div>
+</div>

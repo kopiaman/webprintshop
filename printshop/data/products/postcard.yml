@@ -1,0 +1,13 @@
+name: Postcard
+slug: postcard
+description: 'Create, personalize and send a postcard using any pictures of your choice.'
+category: Postcard
+position: 0
+price: '10'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 500, height: 500, printable_width: 484, printable_height: 338, printable_offset_x: 8, printable_offset_y: 80 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: postcard.png }, price: '10' }
+defaultVariant: white

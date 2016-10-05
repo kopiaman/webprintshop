@@ -1,0 +1,24 @@
+name: 'Photo 4R - 12 Photos'
+slug: photo-4r-12-photos
+description: 'Get you pictures printed out with us hassle free. No more running to a nearby store to print them. We deliver!'
+category: 'Photo 4R'
+position: 0
+price: '42'
+sizes:
+    - Quantity
+orientations:
+    - { name: 'Page 1', width: 500, height: 500, printable_width: 478, printable_height: 347, printable_offset_x: 12, printable_offset_y: 72 }
+    - { name: 'Page 2', width: 500, height: 500, printable_width: 478, printable_height: 347, printable_offset_x: 12, printable_offset_y: 72 }
+    - { name: 'Page 3', width: 500, height: 500, printable_width: 478, printable_height: 347, printable_offset_x: 12, printable_offset_y: 72 }
+    - { name: 'Page 4', width: 500, height: 500, printable_width: 478, printable_height: 347, printable_offset_x: 12, printable_offset_y: 72 }
+    - { name: 'Page 5', width: 500, height: 500, printable_width: 478, printable_height: 347, printable_offset_x: 12, printable_offset_y: 72 }
+    - { name: 'Page 6', width: 500, height: 500, printable_width: 478, printable_height: 347, printable_offset_x: 12, printable_offset_y: 72 }
+    - { name: 'Page 7', width: 500, height: 500, printable_width: 478, printable_height: 347, printable_offset_x: 12, printable_offset_y: 72 }
+    - { name: 'Page 8', width: 500, height: 500, printable_width: 478, printable_height: 347, printable_offset_x: 12, printable_offset_y: 72 }
+    - { name: 'Page 9', width: 500, height: 500, printable_width: 478, printable_height: 347, printable_offset_x: 12, printable_offset_y: 72 }
+    - { name: 'Page 10', width: 500, height: 500, printable_width: 478, printable_height: 347, printable_offset_x: 12, printable_offset_y: 72 }
+    - { name: 'Page 11', width: 500, height: 500, printable_width: 478, printable_height: 347, printable_offset_x: 12, printable_offset_y: 72 }
+    - { name: 'Page 12', width: 500, height: 500, printable_width: 478, printable_height: 347, printable_offset_x: 12, printable_offset_y: 72 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { 'Page 1': 4r.png, 'Page 2': 4r.png, 'Page 3': 4r.png, 'Page 4': 4r.png, 'Page 5': 4r.png, 'Page 6': 4r.png, 'Page 7': 4r.png, 'Page 8': 4r.png, 'Page 9': 4r.png, 'Page 10': 4r.png, 'Page 11': 4r.png, 'Page 12': 4r.png },price: '42' }
+defaultVariant: white

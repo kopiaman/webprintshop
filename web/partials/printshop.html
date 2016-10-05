@@ -1,0 +1,44 @@
+<div class="pages">
+    <h1>
+        {{msg}}
+    </h1>
+    <!-- Top Rated Product
+    ============================================ -->
+    <div class="top-product tab-product-2">
+        <div class="container">
+            <div class="row">
+                <h2>
+                    AVAILABLE NOW!
+                </h2>
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3" ng-repeat="product in products 
+                | filter : { web_ready : true}">
+                    <div class="product-grid-wider">
+                        <!-- Product Image -->
+                        <div class="pro-image">
+                            <a ui-sref="printshopCategory({category:product.pk})">
+                                <img ng-src="{{product.image}}"/>
+                                <span class="pro-label great-deal">
+                                    popular!
+                                </span>
+                                <!-- Product Hover Content -->
+                            </a>
+                        </div>
+                        <!-- Product Content -->
+                        <div class="pro-content">
+                            <div class="top fix">
+                                <h3>
+                                  <a ui-sref="printshopCategory({category:product.pk})">
+                                        {{product.name}}
+                                    </a>
+                                </h3>
+                                <p class="price float-right">
+                                    RM {{product.minimum_price}}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

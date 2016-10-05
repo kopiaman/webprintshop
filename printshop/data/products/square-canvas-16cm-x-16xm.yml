@@ -1,0 +1,13 @@
+name: 'Square Canvas-16cm x 16xm'
+slug: square-canvas-16cm-x-16xm
+description: 'Decorate your wall or gift with something special on a Photo Canvas. Take your pick and create your very own    '
+category: Canvas
+position: 0
+price: '80'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 500, height: 500, printable_width: 396, printable_height: 396, printable_offset_x: 47, printable_offset_y: 47 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: canvas.jpg }, price: '40' }
+defaultVariant: white

@@ -1,0 +1,23 @@
+# Enable rewrite engine and route requests to framework
+#RewriteEngine On
+#RewriteBase /admin #possibly needed on some hosts
+
+#RewriteCond %{REQUEST_FILENAME} !-l
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+
+#RewriteRule .* index.php [L,QSA]
+#RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
+
+
+
+#second variation
+
+ RewriteEngine On  
+  # If an existing asset or directory is requested go to it as it is
+  RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]
+  RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
+  RewriteRule ^ - [L]
+
+  # If the requested resource doesn't exist, use index.html
+  RewriteRule ^ /printshop/admin/index.php

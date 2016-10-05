@@ -1,0 +1,13 @@
+name: 'Puzzle (A2  Size)'
+slug: puzzle-a2-size
+description: "Turn your design, photos to you own puzzles! \r\nMade of cardboard and mounted on chipboard, these puzzles are printed in vivid and full color.\r\nHave fun playing with your puzzle!\r\n\r\nA2 Size:  (50cm x 38cm)  \r\n\r\nPiece: 500   pcs"
+category: Puzzle
+position: 3
+price: '80'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 656, height: 656, printable_width: 500, printable_height: 380, printable_offset_x: 88, printable_offset_y: 133 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: puzzleA2.jpg }, price: '80' }
+defaultVariant: white

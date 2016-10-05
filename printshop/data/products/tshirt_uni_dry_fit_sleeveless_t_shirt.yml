@@ -1,0 +1,17 @@
+name: 'Unisex Dry Fit Sleeveless'
+slug: tshirt_uni_dry_fit_sleeveless_t_shirt
+description: "Dry Fit T-shirt is a polyester performance T-shirts that help improve physical performance by supporting the body's natural temperature regulating mechanism. \r\n\r\nThey work great in hot weather, but they're also a great choice in cooler temperatures, since they won't become damp and chilly like cotton shirts can. \r\n\r\nFor year-round comfort, make a performance T-shirt your first choice."
+category: T-Shirts
+position: 4
+price: '30'
+sizes:
+    - S
+    - M
+    - L
+    - XL
+    - XXL
+orientations:
+    - { name: Front, width: 621, height: 621, printable_width: 210, printable_height: 297, printable_offset_x: 204, printable_offset_y: 179 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: unisleeveless.jpg }, price: '30' }
+defaultVariant: white

@@ -1,0 +1,48 @@
+-
+    name: white
+    slug: white
+    hexes: ['#ffffff']
+-
+    name: black
+    slug: black
+    hexes: ['#000000']
+-
+    name: red
+    slug: red
+    hexes: ['#ff0000']
+-
+    name: purple
+    slug: purple
+    hexes: ['#a020f0']
+-
+    name: blue
+    slug: blue
+    hexes: ['#0000ff']
+-
+    name: orange
+    slug: orange
+    hexes: ['#ffa500']
+-
+    name: green
+    slug: green
+    hexes: ['#1e9658']
+-
+    name: pink
+    slug: pink
+    hexes: ['#f7b2d8']
+-
+    name: brown
+    slug: brown
+    hexes: ['#926239']
+-
+    name: blue-light
+    slug: blue-light
+    hexes: ['#00bfff']
+-
+    name: yellow
+    slug: yellow
+    hexes: ['#ffff00']
+-
+    name: green-light
+    slug: green-light
+    hexes: ['#a7ed08']
