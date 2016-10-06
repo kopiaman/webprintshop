@@ -211,10 +211,11 @@
     <i class="fa fa-spinner fa-spin"></i>
 </div>
 
-<script type='text/javascript' src="https://checkout.stripe.com/checkout.js"></script>        
+<!-- <script type='text/javascript' src="https://checkout.stripe.com/checkout.js"></script>        
 <script>
 var paypalWindow;
-</script>
+</script>-->
+
 <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -228,6 +229,56 @@ var paypalWindow;
 
 <script src="bundle.min.js"></script>
 <script src="templatescache.min.js"></script>
-<script src="app.js"></script>
+<!-- <script src="app.js"></script> -->
+
+<!-- PRINT PIXEL LIBRARY JS -->
+<script src="scripts/fabricjs.ext.js"></script>
+<!-- PRINTSHOP CONFIG & RUN JS -->
+<script src="scripts/main.js"></script>
+<!-- PRINTSHOP ROUTING -->
+<script src="scripts/routes.js"></script>
+
+
+<!-- ************* CONTROLLER JS ( control individual & specific function) ************* -->
+
+<!--BUY / ORDER FUNCTION -->
+<script src="scripts/controllers/BuyCheckoutController.js"></script>
+<script src="scripts/controllers/BuyConfirmationController.js"></script>
+<script src="scripts/controllers/BuyController.js"></script>
+<script src="scripts/controllers/BuyCustomController.js"></script>
+<script src="scripts/controllers/BuyPaymentMethodController.js"></script>
+<script src="scripts/controllers/CartController.js"></script>
+<!-- IMAGES/TEXT/PHOTO CUSTOMIZATION FUNCTION -->
+<script src="scripts/controllers/DesignerController.js"></script>
+<script src="scripts/controllers/ImagesAddGraphicController.js"></script>
+<script src="scripts/controllers/ImagesBoxController.js"></script>
+<script src="scripts/controllers/ImagesController.js"></script>
+<script src="scripts/controllers/ImagesEditController.js"></script>
+<script src="scripts/controllers/ImagesGraphicsController.js"></script>
+<script src="scripts/controllers/ImagesUploadController.js"></script>
+<script src="scripts/controllers/TextController.js"></script>
+<script src="scripts/controllers/TextEditController.js"></script>
+<!--PRODUCT FUNCTION -->
+<script src="scripts/controllers/ProductBrowserController.js"></script>
+<script src="scripts/controllers/ProductController.js"></script>
+<script src="scripts/controllers/ProductSelectionController.js"></script>
+
+<!-- ************* CONTROLLER END ************* -->
+
+<!-- DIRECTIVES JS (repeated html js library) -->
+<script src="scripts/directives/angular.jquery-ui.spinner.js"></script>
+<script src="scripts/directives/angular.simplecolorpicker.js"></script>
+<script src="scripts/directives/imgPreload.js"></script>
+
+
+<!-- SERVICES JS (FACTORY -return repeated function & SERVICES - create new object) -->
+<script src="scripts/services/ApiService.js"></script>
+<script src="scripts/services/CanvasService.js"></script>
+<script src="scripts/services/CartService.js"></script>]
+<script src="scripts/services/CountryService.js"></script>
+<script src="scripts/services/FontService.js"></script>
+<script src="scripts/services/PriceService.js"></script>
+<script src="scripts/services/ProductService.js"></script>
+
 </body>
 </html>

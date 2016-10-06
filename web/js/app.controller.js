@@ -6,7 +6,8 @@ angular.module('app.controller', [])
   .controller('printshopCtrl', function ($scope, $http) {
     $http({
       method: 'GET',
-      url: API_URL + 'merchandise/?order=sort'
+      url: API_URL + 'merchandise/?order=sort',
+      cache: true
     }).then(function mySuccess (response) {
       $scope.products = response.data
     }, function myError (response) {
@@ -18,7 +19,8 @@ angular.module('app.controller', [])
   .controller('printshopCategoryCtrl', function ($scope, $stateParams, $http) {
     $http({
       method: 'GET',
-      url: API_URL + 'merchandise/' + $stateParams.category
+      url: API_URL + 'merchandise/' + $stateParams.category,
+      cache: true
     }).then(function mySuccess (response) {
       $scope.products = response.data
     }, function myError (response) {
@@ -34,7 +36,8 @@ angular.module('app.controller', [])
   $scope.getMerchandize = function () {
     $http({
       method: 'GET',
-      url: API_URL + 'merchandise/' + $stateParams.category + '/' + $stateParams.product
+      url: API_URL + 'merchandise/' + $stateParams.category + '/' + $stateParams.product,
+      cache: true
     }).then(function mySuccess (response) {
       $scope.product = response.data[0]
       $scope.imageList = $scope.product.images

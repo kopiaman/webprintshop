@@ -5,7 +5,7 @@
   'currency_symbol' => 'RM',
   'default_product' => '',
   'email' => 'kopiaman@yahoo.com',
-  'site_url' => 'http://camdy.app/printshop/',
+  'site_url' => 'http://webprintshop.app/printshop/',
   'language' => 'en',
   'print_format' => 'pdf',
 );

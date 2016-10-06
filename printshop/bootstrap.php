@@ -111,8 +111,8 @@ class MyMailer extends PHPMailer {
 		$this->IsSMTP(); // telling the class to use SMTP
 		$this->SMTPAuth   = true;                  // enable SMTP authentication
 		$this->Host       = "smtp.zoho.com"; // sets the SMTP server
-		$this->Username   = "salman@camdy.photo"; // SMTP account username
-		$this->Password   = "gengmalay86";        // SMTP account password
+		$this->Username   = "info@camdy.photo"; // SMTP account username
+		$this->Password   = "somepasswordhere";        // SMTP account password
 		$this->SMTPSecure = 'tls';                            
    		$this->Port = 587;  
 		
