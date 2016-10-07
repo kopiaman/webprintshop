@@ -156,7 +156,7 @@
         <div class="col-md-6">
 
             <div class="btn-group btn-group-justified btn-menu hidden-xs" ng-click="editMode = 'none'">
-                <a ui-sref="app.product.home" class="btn btn-default" ng-class="{active: activeTab == 'product' && editMode == 'none'}"><i class="fa fa-info"></i><br /><translate>Product Info</translate></a>
+                <a ui-sref="app.product.home" class="btn btn-default" ng-class="{active: activeTab == 'product' && editMode == 'none'}"><i class="fa fa-info"></i><br /><translate>Change Color </translate></a>
                 <a ui-sref="app.images.home" ng-click="editMode = 'none'" class="btn btn-default" ng-class="{active: (activeTab == 'images' && editMode == 'none') || editMode == 'image'}"><i class="fa fa-camera"></i><br /><translate>Add image</translate></a>
                 <a ui-sref="app.text.add" ng-click="editMode = 'none'" class="btn btn-default" ng-class="{active: (activeTab == 'text' && editMode == 'none') || editMode == 'text'}"><i class="fa fa-font"></i><br /><translate>Add text</translate></a>
                 <a ui-sref="app.buy.home" class="btn btn-default" ng-class="{active: activeTab == 'buy' && editMode == 'none'}"><i class="fa fa-shopping-cart"></i><br /><translate>Buy now</translate></a>
@@ -181,7 +181,7 @@
     </div>
     <nav class="navbar navbar-default mobile-footer-nav"role="navigation" ng-show="showMobileFooter">
         <div class="btn-group btn-group-justified btn-menu">
-            <a ui-sref="app.product.browser" class="btn btn-default"><i class="fa fa-info"></i><br /><translate>Info</translate></a>
+            <a ui-sref="app.product.browser" class="btn btn-default"><i class="fa fa-info"></i><br /><translate>Change Color</translate></a>
             <a ui-sref="app.images.home" ng-click="editMode = 'none'" class="btn btn-default" ng-class="{active: (activeTab == 'images' && editMode == 'none') || editMode == 'image'}"><i class="fa fa-camera"></i><br /><translate>Add image</translate></a>
             <a ui-sref="app.text.add" ng-click="editMode = 'none'" class="btn btn-default" ng-class="{active: (activeTab == 'text' && editMode == 'none') || editMode == 'text'}"><i class="fa fa-font"></i><br /><translate>Add text</translate></a>
             <a href="" ng-click="openCart()" class="btn btn-default" ng-class="{active: activeTab == 'buy' && editMode == 'none'}"><i class="fa fa-shopping-cart"></i><br /><translate>Buy now</translate></a>
