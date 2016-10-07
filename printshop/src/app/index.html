@@ -7,12 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CAMDY</title>
 
-    <!-- Bootstrap -->
-    <!-- Latest compiled and minified CSS -->
     <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" rel="stylesheet">
-
-    <!-- Optional theme -->
     <link rel="stylesheet" href="css/bundle.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/theme.css">
@@ -27,24 +23,12 @@
     <body ng-controller="DesignerController">
 
            <div style="text-align: center;" class="hidden-xs">
-        <img src='/web/img/logo_inverse.png'>
-        <a href='/web/printshop.php' class='btn btn-primary'>BACK TO PRINTSHOP</a>
+        <a href='/web/printshop.php' class='btn btn-primary btn-lg'>BACK TO PRINTSHOP</a>
         </div>
 
-        <div class="mobile-nav navbar-fixed-top visible-xs">
+        <div class="mobile-nav navbar-fixed-top visible-xs" style="background-color: white">
 
-            <div class="row  text-center">
-                <div class="col-xs-2">    
-                    <!-- <a ui-sref="app.product.home"><i class="fa fa-home"></i></a> -->
-                    <a href='/web3/printshop.php'><i class="fa fa-home"></i>BACK</a>
-                </div>            
-                <div class="col-xs-8">                
-                    <span ng-cloak>{{site_name}}</span>
-                </div>  
-                <div class="col-xs-2">     
-                    <a href="" ng-click="openCart()"><i class="fa fa-shopping-cart"></i></a>
-                </div>   
-            </div>
+          
 
         </div>
 
@@ -210,12 +194,7 @@
 <div class="loading-indicator">
     <i class="fa fa-spinner fa-spin"></i>
 </div>
-
-<!-- <script type='text/javascript' src="https://checkout.stripe.com/checkout.js"></script>        
-<script>
-var paypalWindow;
-</script>-->
-
+<!-- ************* LIBRARY  JS  ************* -->
 <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -223,24 +202,17 @@ var paypalWindow;
 <script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.2/angular-sanitize.min.js"></script>
 <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.js"></script>
 <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.13/angular-ui-router.min.js"></script>
-
 <script src="//cdnjs.cloudflare.com/ajax/libs/spectrum/1.3.0/js/spectrum.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/accounting.js/0.4.1/accounting.min.js"></script>
-
 <script src="bundle.min.js"></script>
-<script src="templatescache.min.js"></script>
-<!-- <script src="app.js"></script> -->
-
-<!-- PRINT PIXEL LIBRARY JS -->
 <script src="scripts/fabricjs.ext.js"></script>
+
+<!-- ************* PRINTSHOP  JS ( control individual & specific function) ************* -->
+<script src="templatescache.min.js"></script>
 <!-- PRINTSHOP CONFIG & RUN JS -->
-<script src="scripts/main.js"></script>
+<script src="scripts/main.js"></script>`
 <!-- PRINTSHOP ROUTING -->
 <script src="scripts/routes.js"></script>
-
-
-<!-- ************* CONTROLLER JS ( control individual & specific function) ************* -->
-
 <!--BUY / ORDER FUNCTION -->
 <script src="scripts/controllers/BuyCheckoutController.js"></script>
 <script src="scripts/controllers/BuyConfirmationController.js"></script>
@@ -262,15 +234,11 @@ var paypalWindow;
 <script src="scripts/controllers/ProductBrowserController.js"></script>
 <script src="scripts/controllers/ProductController.js"></script>
 <script src="scripts/controllers/ProductSelectionController.js"></script>
-
 <!-- ************* CONTROLLER END ************* -->
-
 <!-- DIRECTIVES JS (repeated html js library) -->
 <script src="scripts/directives/angular.jquery-ui.spinner.js"></script>
 <script src="scripts/directives/angular.simplecolorpicker.js"></script>
 <script src="scripts/directives/imgPreload.js"></script>
-
-
 <!-- SERVICES JS (FACTORY -return repeated function & SERVICES - create new object) -->
 <script src="scripts/services/ApiService.js"></script>
 <script src="scripts/services/CanvasService.js"></script>
@@ -279,6 +247,5 @@ var paypalWindow;
 <script src="scripts/services/FontService.js"></script>
 <script src="scripts/services/PriceService.js"></script>
 <script src="scripts/services/ProductService.js"></script>
-
 </body>
 </html>
