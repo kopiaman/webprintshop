@@ -9,19 +9,19 @@ angular.module('myApp', [
   .config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function ($stateProvider, $urlRouterProvider, $locationProvider) {
 
     //default route
-    $urlRouterProvider.otherwise('main')
+    $urlRouterProvider.otherwise('printshopMain')
 
     $stateProvider
-      .state('main', { // shpw main printshop page
-        url: '/main',
-        templateUrl: 'partials/printshop.html',
-        controller: 'printshopCtrl'
+      .state('printshopMain', { // shpw main printshop page
+        url: '/printshopMain',
+        templateUrl: 'partials/printshop_main.html',
+        controller: 'printshopMainCtrl'
 
       })
-      .state('printshopCategory', { // show category 
-        url: '/printshopCategory/:category',
-        templateUrl: 'partials/printshop_category.html',
-        controller: 'printshopCategoryCtrl'
+      .state('printshopProduct', { // show category 
+        url: '/printshopProduct/:category',
+        templateUrl: 'partials/printshop_product.html',
+        controller: 'printshopProductCtrl'
       })
 
       .state('printshopDetail', { // State demonstrating Nested views

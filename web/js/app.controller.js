@@ -3,7 +3,7 @@ var API_URL = 'https://api.dropp.photo/';
 
 angular.module('app.controller', [])
 
-  .controller('printshopCtrl', function ($scope, $http) {
+  .controller('printshopMainCtrl', function ($scope, $http) {
     $http({
       method: 'GET',
       url: API_URL + 'merchandise/?order=sort',
@@ -13,10 +13,9 @@ angular.module('app.controller', [])
     }, function myError (response) {
       $scope.products = response.status + response.statusText
     })
-    $scope.msg = 'PrintShop'
   })
 
-  .controller('printshopCategoryCtrl', function ($scope, $stateParams, $http) {
+  .controller('printshopProductCtrl', function ($scope, $stateParams, $http) {
     $http({
       method: 'GET',
       url: API_URL + 'merchandise/' + $stateParams.category,
@@ -27,7 +26,6 @@ angular.module('app.controller', [])
       $scope.products = response.status + response.statusText
     })
     $scope.category = $stateParams.category
-    $scope.msg = 'PrintShop Detail'
   })
 
 
