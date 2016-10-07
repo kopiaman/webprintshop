@@ -4,6 +4,7 @@ angular.module('myApp', [
   'ui.router',
   'ui.bootstrap',
   'app.controller',
+  'app.directive',
   'LocalStorageModule'
 ])
   .config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function ($stateProvider, $urlRouterProvider, $locationProvider) {
