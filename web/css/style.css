@@ -29,7 +29,7 @@ body {
   height: 100%;
   background: white;
   color: #757575;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: normal;
   position: relative;
@@ -51,7 +51,7 @@ footer {
 }
 h1 {
   font-weight: lighter;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 50px;
   text-align: center;
 }
@@ -940,42 +940,6 @@ span {
   padding-right: 0;
   width: 30%;
 }
-.mobile-menu .mean-bar::after {
-  content: url(../img/logo_mobile.png);
-  font-family: 'Raleway', sans-serif;
-}
-.mobile-menu ul {
-  padding: 0 25px !important;
-}
-.mobile-menu ul li {
-  padding: 0 !important;
-}
-.mobile-menu ul li a {
-  text-transform: uppercase !important;
-}
-.mobile-menu ul li a:hover {
-  color: white;
-  background-color: #04BED8;
-  padding-left: 20px;
-}
-.mobile-menu ul li ul {
-  padding: 0 !important;
-}
-.meanmenu-reveal {
-  width: 24px !important;
-}
-.meanmenu-reveal span {
-  margin-top: 4px !important;
-}
-.meanclose {
-  width: 24px !important;
-  text-align: right !important;
-}
-.mean-expand {
-  right: 0 !important;
-  text-align: center;
-  width: 30px !important;
-}
 .home-slider-wrapper {
   overflow: hidden;
   position: relative;
@@ -1284,7 +1248,7 @@ span {
 }
 .coupon-discount .coupon-wrapper p {
   color: #9b9b9c;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: italic;
   margin-bottom: 34px;
 }
@@ -1904,7 +1868,7 @@ span {
 }
 .sin-blog .blog-details .title {
   color: #183241;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: block;
   font-size: 34px;
   font-weight: bold;
@@ -2526,14 +2490,14 @@ span {
 }
 .shop-page-banner h2 {
   color: #0d7cc1;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 56px;
   font-style: italic;
   letter-spacing: -0.35px;
 }
 .shop-page-banner h1 {
   color: #0d7cc1;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 100px;
   font-style: italic;
   font-weight: 700;
@@ -2574,7 +2538,7 @@ span {
 }
 .shop-page-slider .sin-slide .slide-content h1 {
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 56px;
   font-style: italic;
   font-weight: bold;
@@ -4257,14 +4221,14 @@ span {
 }
 .single-banner .banner-brief-1 h2 {
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 28px;
   font-weight: 700;
   line-height: 24px;
 }
 .single-banner .banner-brief-1 h1 {
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 72px;
   font-style: italic;
   font-weight: 700;
@@ -4339,7 +4303,7 @@ span {
 }
 .home-banners .single-banner .banner-brief-1 h1 {
   color: #183241;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 56px;
   font-style: normal;
   font-weight: bold;
@@ -4362,7 +4326,7 @@ span {
 }
 .home-banners .single-banner .banner-brief-4 h1 {
   color: #2B2F5B;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 56px;
   font-style: normal;
   font-weight: bold;
@@ -4379,7 +4343,7 @@ span {
 }
 .home-banners .single-banner .banner-brief-5 h1 {
   color: #183241;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 56px;
   font-style: normal;
   font-weight: bold;
@@ -4404,7 +4368,7 @@ span {
 }
 .home-banners .single-banner .banner-brief-5 h2.price {
   color: #183241;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: bold;
@@ -4431,7 +4395,7 @@ span {
 }
 .home-banners .single-banner .banner-brief-6 h1 {
   color: #0d7cc1;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 56px;
   font-style: normal;
   font-weight: bold;
@@ -4455,7 +4419,7 @@ span {
 }
 .home-banners .single-banner .banner-brief-7 h2 {
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 13px;
@@ -4465,7 +4429,7 @@ span {
 }
 .home-banners .single-banner .banner-brief-7 h1 {
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 77px;
   font-weight: bold;
   line-height: 77px;
@@ -4484,7 +4448,7 @@ span {
 .home-banners .single-banner .banner-brief-7 .price h3 {
   color: white;
   float: left;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 36px;
   font-weight: bold;
   left: 16px;
@@ -4496,7 +4460,7 @@ span {
 }
 .home-banners .single-banner .banner-brief-7 .price h1 {
   color: #04BED8;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 148px;
   font-weight: bold;
   line-height: 148px;
@@ -4531,7 +4495,7 @@ span {
 }
 .home-banners .single-banner .banner-brief-8 h1 {
   color: #183241;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 56px;
   font-style: normal;
   font-weight: bold;
@@ -4591,7 +4555,7 @@ span {
 }
 .page-banner h1 {
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 56px;
   font-style: italic;
   font-weight: bold;
@@ -4776,7 +4740,7 @@ span {
   background-position: 550px 250px;
 }
 .about-area h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 50px;
   color: #04BED8;
 }
@@ -4792,7 +4756,7 @@ span {
   /* For IE8 and earlier */
 }
 .page-title {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 50px;
   color: #04BED8;
 }
