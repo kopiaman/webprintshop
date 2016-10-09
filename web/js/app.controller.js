@@ -1,9 +1,8 @@
-// var API_URL = "http://localhost:8000/"
-var API_URL = 'https://api.dropp.photo/';
+ // var API_URL = "http://localhost:8000/"
+  var API_URL = 'https://api.dropp.photo/';
 
-angular.module('app.controller', [])
-
-  .controller('printshopMainCtrl', function ($scope, $http) {
+angular.module('app')
+.controller('printshopMainCtrl', function ($scope, $http) {
     $http({
       method: 'GET',
       url: API_URL + 'merchandise/?order=sort',
@@ -14,8 +13,7 @@ angular.module('app.controller', [])
       $scope.products = response.status + response.statusText
     })
   })
-
-  .controller('printshopProductCtrl', function ($scope, $stateParams, $http) {
+.controller('printshopProductCtrl', function ($scope, $stateParams, $http) {
     $http({
       method: 'GET',
       url: API_URL + 'merchandise/' + $stateParams.category,
@@ -27,9 +25,7 @@ angular.module('app.controller', [])
     })
     $scope.category = $stateParams.category
   })
-
-
-  .controller('printshopDetailCtrl', function ($scope, $sce,
+ .controller('printshopDetailCtrl', function ($scope, $sce,
   $stateParams, $http, $state, $rootScope, localStorageService) {
   $scope.getMerchandize = function () {
     $http({
@@ -47,6 +43,9 @@ angular.module('app.controller', [])
   }
 
   $scope.setCurrentSize = function (item, index) {
+    
+    localStorageService.set('selectedItemPk', $scope.currentSize[index].pk)
+
     if (item) {
       $scope.imageList = $scope.product.images
       $scope.activeImage = $scope.product.images[0]

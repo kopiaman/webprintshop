@@ -1,7 +1,5 @@
-angular.module('app.directive', [])
-
-	//back button
-	.directive('back', ['$window', function($window) {
+angular.module('app')
+.directive('back', ['$window', function($window) {
         return {
             restrict: 'A',
             link: function (scope, elem, attrs) {

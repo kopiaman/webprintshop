@@ -1,10 +1,6 @@
-angular.module('myApp', [
-  'ngSanitize',
-  'truncate',
+angular.module('app', [
   'ui.router',
   'ui.bootstrap',
-  'app.controller',
-  'app.directive',
   'LocalStorageModule'
 ])
   .config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function ($stateProvider, $urlRouterProvider, $locationProvider) {
