@@ -26,14 +26,20 @@
                         <!-- Product Content -->
                         <div class="pro-content">
                             <div class="top fix">
-                                <h3>
+                               
+                                <h3 style='max-width: 60%; line-height: 15px;'>
                                   <a ui-sref="printshopCategory({category:product.pk})">
                                         {{product.name}}
                                     </a>
-                                </h3>
-                                <p class="price float-right">
-                                    RM {{product.minimum_price}}
-                                </p>
+                                </h3> 
+                               
+
+                                  
+                                <div  style="float: right;line-height: 15px;">
+                                    <span style='font-size:10px;'>From </span><br/>
+                                    <span > RM {{product.minimum_price}} </span>
+                                </div>
+
                             </div>
                         </div>
                     </div>

@@ -1,6 +1,6 @@
 @media only screen and (max-width: 480px) {
   * {
-    font-size: 16px;
+    font-size: 14px;
   }
   .logo {
     padding-left: 20px;
@@ -57,21 +57,24 @@
   }
   .product-grid-wider,
   .product-grid,
-  .product-grid-featured,
-  .product-grid-comingsoon {
+  .product-grid-featured {
     height: 200px;
   }
   .product-grid-wider .top h3,
   .product-grid .top h3,
-  .product-grid-featured .top h3,
-  .product-grid-comingsoon .top h3 {
-    font-size: 14px;
+  .product-grid-featured .top h3 {
+    font-size: 12px;
   }
   .product-grid-wider .top .price,
   .product-grid .top .price,
-  .product-grid-featured .top .price,
-  .product-grid-comingsoon .top .price {
-    font-size: 16px;
+  .product-grid-featured .top .price {
+    font-size: 12px;
+  }
+  .product-grid-wider .pro-image img,
+  .product-grid .pro-image img,
+  .product-grid-featured .pro-image img {
+    min-width: 180px;
+    height: 150px;
   }
   .modal-dialog {
     width: 90%;
@@ -89,7 +92,7 @@
     font-size: 20px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   .logo {
     padding-left: 20px;
     margin-bottom: 20px;
@@ -625,8 +628,29 @@
     font-size: 30px;
     width: 90%;
   }
+  .product-grid-wider,
+  .product-grid,
+  .product-grid-featured {
+    height: 300px;
+  }
+  .product-grid-wider .top h3,
+  .product-grid .top h3,
+  .product-grid-featured .top h3 {
+    font-size: 16px;
+  }
+  .product-grid-wider .top .price,
+  .product-grid .top .price,
+  .product-grid-featured .top .price {
+    font-size: 16px;
+  }
+  .product-grid-wider .pro-image img,
+  .product-grid .pro-image img,
+  .product-grid-featured .pro-image img {
+    width: 100%;
+    min-height: 240px;
+  }
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 769px) and (max-width: 992px) {
   .pages {
     font-size: 16px;
   }
@@ -916,7 +940,7 @@
   .product-grid-wider,
   .product-grid,
   .product-grid-featured {
-    height: 280px;
+    height: 260px;
   }
   .product-grid-wider .top h3,
   .product-grid .top h3,
@@ -929,7 +953,7 @@
     font-size: 16px;
   }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
   .header-search .search-form.active {
     width: 660px;
   }
@@ -1199,7 +1223,7 @@
   .product-grid-wider,
   .product-grid,
   .product-grid-featured {
-    height: 280px;
+    height: 260px;
   }
   .product-grid-wider .top h3,
   .product-grid .top h3,

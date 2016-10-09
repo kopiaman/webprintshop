@@ -2959,7 +2959,7 @@ span {
   -ms-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
-  height: 340px;
+  height: 260px;
   float: left;
   margin: 10px 0px;
   width: 100%;
@@ -2967,15 +2967,14 @@ span {
 }
 .product-grid .pro-image {
   position: relative;
-  height: 80%;
   overflow: hidden;
 }
 .product-grid .pro-image img {
-  width: 100%;
-  height: 100%;
+  min-width: 260px;
+  height: 200px;
 }
 .product-grid .pro-content {
-  padding: 16px 13px;
+  padding: 10px;
 }
 .product-grid .top h3 {
   float: left;
@@ -3040,7 +3039,7 @@ span {
   -ms-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
-  height: 340px;
+  height: 260px;
   float: left;
   margin: 10px 0px;
   width: 100%;
@@ -3048,15 +3047,14 @@ span {
 }
 .product-grid-featured .pro-image {
   position: relative;
-  height: 80%;
   overflow: hidden;
 }
 .product-grid-featured .pro-image img {
-  width: 100%;
-  height: 100%;
+  min-width: 260px;
+  height: 200px;
 }
 .product-grid-featured .pro-content {
-  padding: 16px 13px;
+  padding: 10px;
 }
 .product-grid-featured .top h3 {
   float: left;
@@ -3121,7 +3119,7 @@ span {
   -ms-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
-  height: 340px;
+  height: 260px;
   float: left;
   margin: 10px 0px;
   width: 100%;
@@ -3129,15 +3127,14 @@ span {
 }
 .product-grid-wider .pro-image {
   position: relative;
-  height: 80%;
   overflow: hidden;
 }
 .product-grid-wider .pro-image img {
-  width: 100%;
-  height: 100%;
+  min-width: 260px;
+  height: 200px;
 }
 .product-grid-wider .pro-content {
-  padding: 16px 13px;
+  padding: 10px;
 }
 .product-grid-wider .top h3 {
   float: left;
@@ -3202,7 +3199,7 @@ span {
   -ms-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
-  height: 340px;
+  height: 260px;
   float: left;
   margin: 10px 0px;
   width: 100%;
@@ -3211,15 +3208,14 @@ span {
 }
 .product-grid-comingsoon .pro-image {
   position: relative;
-  height: 80%;
   overflow: hidden;
 }
 .product-grid-comingsoon .pro-image img {
-  width: 100%;
-  height: 100%;
+  min-width: 260px;
+  height: 200px;
 }
 .product-grid-comingsoon .pro-content {
-  padding: 16px 13px;
+  padding: 10px;
 }
 .product-grid-comingsoon .top h3 {
   float: left;
