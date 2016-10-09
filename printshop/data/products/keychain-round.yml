@@ -1,0 +1,13 @@
+name: 'Keychain Round'
+slug: keychain-round
+description: .
+category: 'Wooden Keychain'
+position: 0
+price: '12'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 500, height: 500, printable_width: 293, printable_height: 282, printable_offset_x: 115, printable_offset_y: 178 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: keychain_round.png }, price: '12' }
+defaultVariant: white

@@ -1,0 +1,17 @@
+name: 'Magic Mug'
+slug: magic_mug
+description: .
+category: Mug
+position: 0
+price: '35'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 500, height: 500, printable_width: 246, printable_height: 310, printable_offset_x: 130, printable_offset_y: 121 }
+variants:
+    - { name: black, slug: white, colors: ['#000000'], hexes: ['#000000'], orientations: { Front: magicmug/black.jpg }, price: '35' }
+    - { name: blue, slug: blue, colors: ['#0000ff'], hexes: ['#0000ff'], orientations: { Front: magicmug/blue.jpg }, price: '35' }
+    - { name: green, slug: green, colors: ['#1e9658'], hexes: ['#1e9658'], orientations: { Front: magicmug/green.jpg }, price: '35' }
+    - { name: red, slug: red, colors: ['#ff0000'], hexes: ['#ff0000'], orientations: { Front: magicmug/red.jpg }, price: '35' }
+    - { name: maroon, slug: maroon, colors: ['#c8251c'], hexes: ['#c8251c'], orientations: { Front: magicmug/maroon.jpg }, price: '35' }
+defaultVariant: black

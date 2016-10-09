@@ -44,6 +44,33 @@
     name: 'Photo 4R'
     slug: photo-4r
 -
+    name: 'Mini Tee'
+    slug: mini-tee
+-
+    name: 'Baby Romper'
+    slug: baby-romper
+-
+    name: 'Wooden Keychain'
+    slug: wooden-keychain
+-
+    name: 'Metal Keychain'
+    slug: metal-keychain
+-
+    name: Untitled
+    slug: untitled
+-
+    name: Untitled
+    slug: untitled
+-
+    name: Untitled
+    slug: untitled
+-
+    name: Untitled
+    slug: untitled
+-
+    name: Untitled
+    slug: untitled
+-
     name: Untitled
     slug: untitled
 -

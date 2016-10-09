@@ -1,0 +1,13 @@
+name: 'Baby Romper'
+slug: baby_romper
+description: .
+category: 'Baby Romper'
+position: 0
+price: '39'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 500, height: 500, printable_width: 222, printable_height: 242, printable_offset_x: 140, printable_offset_y: 132 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: baby_romper.jpg }, price: '0.00' }
+defaultVariant: white

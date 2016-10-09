@@ -1,0 +1,18 @@
+name: 'Basic Cap'
+slug: cap_basic
+description: 'Personalize your own cap with your design or your own unique brand!'
+category: Caps
+position: 0
+price: '30'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 500, height: 500, printable_width: 282, printable_height: 133, printable_offset_x: 110, printable_offset_y: 150 }
+variants:
+    - { name: yellow, slug: white, colors: ['#ffff00'], hexes: ['#ffff00'], orientations: { Front: cap/yellow.jpg }, price: '0.00' }
+    - { name: blue, slug: blue, colors: ['#0000ff'], hexes: ['#0000ff'], orientations: { Front: cap/blue.jpg }, price: '0.00' }
+    - { name: black, slug: black, colors: ['#000000'], hexes: ['#000000'], orientations: { Front: cap/black.jpg }, price: '30' }
+    - { name: red, slug: red, colors: ['#ff0000'], hexes: ['#ff0000'], orientations: { Front: cap/red.jpg }, price: '30' }
+    - { name: orange, slug: orange, colors: ['#ffa500'], hexes: ['#ffa500'], orientations: { Front: cap/orange.jpg }, price: '30' }
+    - { name: purple, slug: purple, colors: ['#a020f0'], hexes: ['#a020f0'], orientations: { Front: cap/purple.jpg }, price: '30' }
+defaultVariant: yellow

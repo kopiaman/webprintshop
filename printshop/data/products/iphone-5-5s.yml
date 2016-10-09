@@ -7,7 +7,7 @@ price: '10'
 sizes:
     - Quantity
 orientations:
-    - { name: Front, width: 129, height: 129, printable_width: 58, printable_height: 115, printable_offset_x: 34, printable_offset_y: 6 }
+    - { name: Front, width: 129, height: 129, printable_width: 58, printable_height: 122, printable_offset_x: 34, printable_offset_y: 3 }
 variants:
     - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: iphone5.jpg }, price: '10' }
 defaultVariant: white

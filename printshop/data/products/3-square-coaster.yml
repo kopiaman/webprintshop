@@ -1,0 +1,13 @@
+name: '3 Square Coaster'
+slug: 3-square-coaster
+description: 'Ever had the Fun thought of having a set of personalized coasters? Now’s your chance to get some!  '
+category: Coaster
+position: 0
+price: '9'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 500, height: 500, printable_width: 400, printable_height: 400, printable_offset_x: 50, printable_offset_y: 50 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: square.jpg }, price: '4' }
+defaultVariant: white

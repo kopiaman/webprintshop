@@ -46,3 +46,7 @@
     name: green-light
     slug: green-light
     hexes: ['#a7ed08']
+-
+    name: maroon
+    hexes: ['#c8251c']
+    slug: maroon

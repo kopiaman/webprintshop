@@ -1,0 +1,13 @@
+name: 'Rectangle Canvas'
+slug: canvas_rectangle
+description: 'Decorate your wall or gift with something special on a Photo Canvas. Take your pick and create your very own    '
+category: Canvas
+position: 0
+price: '25'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 500, height: 500, printable_width: 309, printable_height: 404, printable_offset_x: 96, printable_offset_y: 47 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: canvas_rectangle.jpg }, price: '40' }
+defaultVariant: white

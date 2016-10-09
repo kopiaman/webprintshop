@@ -1,0 +1,13 @@
+name: 'Keychain Rectangle'
+slug: keychain-rectangle
+description: .
+category: 'Wooden Keychain'
+position: 0
+price: '12'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 500, height: 500, printable_width: 250, printable_height: 331, printable_offset_x: 143, printable_offset_y: 155 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: keychain_rectangle.jpg }, price: '12' }
+defaultVariant: white

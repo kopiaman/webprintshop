@@ -1,0 +1,13 @@
+name: 'Keychain Love'
+slug: keychain-love
+description: .
+category: 'Metal Keychain'
+position: 0
+price: '15'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 500, height: 500, printable_width: 163, printable_height: 177, printable_offset_x: 174, printable_offset_y: 258 }
+variants:
+    - { name: black, slug: white, colors: ['#000000'], hexes: ['#000000'], orientations: { Front: keychain_love.jpg }, price: '15' }
+defaultVariant: black

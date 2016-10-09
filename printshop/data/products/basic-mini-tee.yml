@@ -1,0 +1,19 @@
+name: 'Basic Mini Tee'
+slug: basic-mini-tee
+description: .
+category: 'Mini Tee'
+position: 0
+price: '18'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 500, height: 500, printable_width: 170, printable_height: 220, printable_offset_x: 160, printable_offset_y: 190 }
+variants:
+    - { name: blue-light, slug: white, colors: ['#00bfff'], hexes: ['#00bfff'], orientations: { Front: mini_tee_blue.jpg }, price: '0.00' }
+    - { name: red, slug: red, colors: ['#ff0000'], hexes: ['#ff0000'], orientations: { Front: mini_tee_red.jpg }, price: '0.00' }
+    - { name: yellow, slug: yellow, colors: ['#ffff00'], hexes: ['#ffff00'], orientations: { Front: mini_tee_yellow.jpg }, price: '0.00' }
+    - { name: purple, slug: purple, colors: ['#a020f0'], hexes: ['#a020f0'], orientations: { Front: mini_tee_purple.jpg }, price: '0.00' }
+    - { name: pink, slug: pink, colors: ['#f7b2d8'], hexes: ['#f7b2d8'], orientations: { Front: mini_tee_pink.jpg }, price: '0.00' }
+    - { name: orange, slug: orange, colors: ['#ffa500'], hexes: ['#ffa500'], orientations: { Front: mini_tee_orange.jpg }, price: '0.00' }
+    - { name: green, slug: green, colors: ['#1e9658'], hexes: ['#1e9658'], orientations: { Front: mini_tee_green.jpg }, price: '0.00' }
+defaultVariant: blue-light

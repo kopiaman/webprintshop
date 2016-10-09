@@ -1,0 +1,13 @@
+name: 'Love Cushion'
+slug: cushion_love
+description: .
+category: Cushion
+position: 0
+price: '40'
+sizes:
+    - Quantity
+orientations:
+    - { name: Front, width: 500, height: 500, printable_width: 371, printable_height: 281, printable_offset_x: 64, printable_offset_y: 121 }
+variants:
+    - { name: orange, slug: white, colors: ['#ffa500'], hexes: ['#ffa500'], orientations: { Front: cushion-love.png }, price: '0.00' }
+defaultVariant: orange
